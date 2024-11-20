@@ -32,6 +32,6 @@ if button:
                     resize_img = cv2.resize(img_np, (width, height), interpolation=INTER_AREA)
                     
                     # Display resized image
-                    st.image(resize_img, caption="Resized Image", use_column_width=True)
+                    st.image(resize_img, caption="Resized Image")
         except:
             st.error("something is wrong")
